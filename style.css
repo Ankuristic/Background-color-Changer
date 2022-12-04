@@ -1,0 +1,33 @@
+#first {
+     text-align:center;
+     color:aqua
+      
+}
+
+
+#button{
+   
+    background-color: black;
+    color:white;
+    border: none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    display :flex;
+}
+
+
+
+/* .container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } */
