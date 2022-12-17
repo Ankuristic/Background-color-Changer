@@ -15,4 +15,4 @@ function add() {
   todol.oninput = updateCount;
 
 
-  https://www.dropbox.com/s/ww1ct9fshgfs1iu/todoproject.zip?dl=0
+ // https://www.dropbox.com/s/ww1ct9fshgfs1iu/todoproject.zip?dl=0
