@@ -20,20 +20,20 @@ function createTodo() {
 
     if (inputtdl.value === '') return
 
-    // const checkbutton = document.createElement("button")
-    // checkbutton.innerHTML = '<i class="fa-solid fa-check"></i>'
-    // checkbutton.classList.add("check-button")
-    // itemall.appendChild(checkbutton)
+    const checkbutton = document.createElement("button")
+    checkbutton.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>'
+    checkbutton.classList.add("check-button")
+    itemall.appendChild(checkbutton)
 
     const trashbutton = document.createElement("button")
     trashbutton.innerHTML = '<i class="fa-solid fa-trash"></i>'
     trashbutton.classList.add("trash-button")
     itemall.appendChild(trashbutton)
 
-    const updatebutton = document.createElement("button")
-    updatebutton.innerHtml ='<i class ="fa-solid fa-pen-to-square"></i>'
-    updatebutton.classList.add("update-button")
-    itemall.appendChild(updatebutton)
+    // const updatebutton = document.createElement("button")
+    // updatebutton.innerHtml ='<i class ="fa-solid fa-pen-to-square"></i>'
+    // updatebutton.classList.add("update-button")
+    // itemall.appendChild(updatebutton)
 
     listtdl.appendChild(itemall)
     inputtdl.value = ''
@@ -63,15 +63,15 @@ function checkDelete(e) {
 
 // update the todo list
 
-// function updateTodoList(e){
-//     const item = e.target
+function updateTodoList(e){
+    const item = e.target
 
-//     //update
-//     if(item.classList[0]==='update-Button') {
-//       todoList = item.parentElement
-//       todolist.update()
-//     }
-// }
+    //update
+    if(item.classList[0]==='update-Button') {
+      todoList = item.parentElement
+      todolist.update()
+    }
+}
 
 buttontdl.addEventListener('click', clickButton)
 listtdl.addEventListener('click', checkDelete)

@@ -105,9 +105,9 @@ body {
     font-size: 15px;
 }
 
-.trash-button {
+/* .trash-button {
     border-radius: 0 10px 10px 0;
-}
+} */
 .update-button {
     border-radius:0 10px 10px 0;
 }
@@ -135,6 +135,6 @@ body {
     pointer-events: none;
 }
 
-button, .check-button, .trash-button {
+button, .check-button, .trash-button , .update-button{
     cursor: pointer;
 }
